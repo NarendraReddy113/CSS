@@ -1,0 +1,32 @@
+/* div{
+    background-color: black;
+} */
+
+/* DESCENDENT SELECTOR */
+/* div img{
+    height: 300px; 
+    width: 400px;
+} */
+
+/* div p{
+    color: wheat;
+}
+
+section  .para{
+    background-color: blue;
+} */
+
+/* CHILD SELECTOR */
+/* section>p{
+    background-color: orange;
+} */
+
+/* Adjacent Selector */
+div+main{
+    background-color: brown;
+}
+/* General Sibiling Selector  */
+
+div~main{
+    border: 2px solid green;
+}

@@ -1,0 +1,29 @@
+h1::first-letter{
+    font-size: 50px;
+}
+
+h1::first-line{
+    background-color: aqua;
+}
+
+h1::before{
+   content: "❤️";
+   /* content: url(../dog.jpg); */
+}
+
+h1::after{
+    content: "❤️";
+}
+
+ul li::marker{
+    color: pink;
+}
+
+h1::selection{
+    /* background-color: orange; */
+    user-select: none;
+}
+
+a[href]{
+    color: blueviolet;
+}

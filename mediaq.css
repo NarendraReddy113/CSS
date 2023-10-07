@@ -1,0 +1,35 @@
+div{
+    background-color: red;
+    color: white;
+    /* text-align: center; */
+    font-size: 50px;
+    display: none;
+}
+
+@media only screen and (min-width:0px) and (max-width:300px) {
+    #box1{
+        background-color: blue;
+        display: block;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    #box2{
+        background-color: greenyellow;
+        display: block;
+    }
+}
+
+@media (min-width:500px) and (max-width:800px) {
+    #box3{
+        background-color: orangered;
+        display: block;
+    }
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+    #box4{
+        background-color: crimson;
+        display: block;
+    }
+}

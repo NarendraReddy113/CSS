@@ -1,0 +1,45 @@
+a:link{
+    color: yellow;
+}
+
+a:active{
+    background-color: green;
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+#name:hover{
+    border: 2px solid red;
+}
+
+#name:focus{
+    background-color: aqua;
+}
+
+/* Structural  */
+section h1:first-child{
+    background-color: aqua;
+}
+
+section h1:last-child{
+    background-color: aqua;
+}
+
+section h1:nth-child(3){
+    background-color: aqua;
+}
+
+section h1:nth-child(even){
+    background-color: red;
+}
+
+section h1:nth-child(odd){
+    background-color: blueviolet;
+}

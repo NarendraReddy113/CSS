@@ -1,0 +1,22 @@
+/* UNIVERSAL SELECTOR */
+*{
+    color: rgb(15, 14, 14);
+}
+/* ELEMENT SELECTOR */
+h1{
+    background-color: aqua;
+}
+/* ID SELECTOR */
+#heading{
+    background-color: crimson;
+}
+/* CLASS SELECTOR */
+.block{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+/* DROUPING SELECTOR */
+p,#heading,.block{
+    color: black;
+}

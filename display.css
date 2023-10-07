@@ -1,0 +1,31 @@
+/* span{
+    color: red;
+    display: inline ;
+} */
+
+section{
+    height: 600px;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    /* gap: 50px; */
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; */
+}
+
+aside{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 5px;
+    font-size: xx-large;
+    /* flex: 1; */
+    
+}
+
+#item1{
+    flex-basis: 50%;
+    flex-grow: 2;
+}

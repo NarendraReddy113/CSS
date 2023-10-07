@@ -1,0 +1,57 @@
+#good{
+
+    /* Text properties */
+    /* color: red; */
+    /* background-color: aqua; */
+    /* text-align: center; */
+    /* text-transform: capitalize; */
+    /* text decoration */
+    /* text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px ; */
+    /* text-decoration: dotted overline rgb(153, 153, 174) 8px;
+    text-shadow: 2px 2px  blue;
+     */
+    /* Font Properties */
+    /* font-size: 100px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; */
+
+}
+
+p{
+    /* text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-indent: 50px; */
+
+    /* font-weight: 700;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+
+/* background properties */
+
+/* body{
+    background-image: url(../dog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1000px 1000px;
+} */
+
+h1{
+    color: rgba(255, 1, 1,0.4);
+    background-color: rgba(7, 242, 242,0.3);
+
+}
+
+body{
+    
+    /* background-image: linear-gradient(to bottom right, rgb(0, 255, 162),blue,orange); */
+
+    /* default elipse */
+    background-image: radial-gradient(circle, red,orange,green,yellow);
+}

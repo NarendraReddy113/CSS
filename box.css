@@ -1,0 +1,22 @@
+/* h1{
+    background-color: orange;
+}
+
+div{
+    background-color: orange;
+} */
+
+h1{
+    background-color: blue;
+    /* width: 500px; */
+    /* thickness style color */
+    border: 2px solid red;
+    padding: 20px;
+    /* t r b l */
+    /* t rl b */
+    /* tb rl */
+    /* auto will be center */
+    margin: 250px 100px 150px 20px;
+    /* margin-top: 100px; */
+
+}

@@ -1,0 +1,5 @@
+@import url(./style1.css);
+@import url(./style2.css);
+h1{
+    color: darkmagenta;
+}

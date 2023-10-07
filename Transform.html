@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #maincontainer{
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #maincontainer #container{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(86, 240, 14);
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 50px rgb(245, 19, 12);
+            /* transition-property: transform;
+            transition-duration: 4s;
+            transition-timing-function: ease;
+            transition-delay: 1s; */
+            transition: transform 6s,height 2s,width 4s;
+        }
+        #maincontainer #container:hover{
+            /* transform: translateX(100px); */
+            /* transform: translateY(200px); */
+            /* transform: translate(200px,100px); */
+
+            /* transform: scaleX(3); */
+            /* transform: scaleY(2); */
+            transform: scale(3,2);
+
+            /* transform: skewX(60deg); */
+            /* transform: skewY(20deg); */
+            /* transform: skew(20deg,45deg); */
+
+            /* transform: rotateX(60deg); */
+            /* transform: rotateY(20deg); */
+            /* transform: rotate(180deg); */
+
+            /* transform: rotate(180deg);
+            height: 200px;
+            width: 200px; */
+        }
+    </style>
+</head>
+<body>
+    <section id="maincontainer">
+        <div id="container">
+            Good Morning
+        </div>
+    </section>
+</body>
+</html>
